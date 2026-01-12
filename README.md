@@ -1,24 +1,24 @@
 # Neuronal Ca²⁺ Activity — Minimal ΔF/F Pipeline Demo (Toy)
 
-A tiny, beginner-level **end-to-end** demonstration of a calcium-like fluorescence preprocessing workflow:
-**simulate data → compute ΔF/F → detect simple events → export CSVs + generate a QC plot**.
+A tiny, beginner-level **end-to-end** demonstration of a calcium-like fluorescence preprocessing workflow:  
+**simulate data → compute ΔF/F → detect simple events → export CSVs + generate a QC plot.**
 
-> **Important:** This is a **toy demo on synthetic data** for illustrating analysis habits and reproducibility.
+> **Important:** This is a **toy demo on synthetic data** for illustrating analysis habits and reproducibility.  
 > It is **not** a biologically valid calcium imaging pipeline and should not be used for real experiments.
-我、
+
 ---
 
 ## What this repo contains / generates
 
-**Code**
+### Code
 - `calcium_peaks_demo.py` — runs the full workflow (simulation → ΔF/F → event detection → exports + plot)
 
-**Outputs (generated after running the script)**
+### Outputs (generated after running the script)
 - `raw_trace_dfF.csv` — per-frame table: `Frame`, `Raw`, `DeltaF/F` (1–1000)
 - `events.csv` — detected event frames + values (toy threshold rule)
 - `trace_qc.png` — QC-style plot: ΔF/F trace with detected-event markers
 
-**Optional**
+### Optional
 - `analysis_notebook_en.ipynb` — notebook version of the same workflow (if you include it)
 
 ---
@@ -53,7 +53,7 @@ Compute:
 Flag frames as events when:
 - `ΔF/F > threshold`
 
-> Note: This simplistic rule can mark multiple adjacent frames around one spike and does not implement
+> Note: This simplistic rule can mark multiple adjacent frames around one spike and does not implement  
 > refractory windows, merging, or prominence/duration filters.
 
 ---
