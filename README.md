@@ -5,7 +5,7 @@ A tiny, beginner-level **end-to-end** demonstration of a calcium-like fluorescen
 
 > **Important:** This is a **toy demo on synthetic data** for illustrating analysis habits and reproducibility.
 > It is **not** a biologically valid calcium imaging pipeline and should not be used for real experiments.
-
+我、
 ---
 
 ## What this repo contains / generates
