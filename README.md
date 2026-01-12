@@ -68,3 +68,8 @@ Flag frames as events when:
 ```bash
 pip install numpy matplotlib
 python calcium_peaks_demo.py
+```
+
+## Limitations / next steps
+- Thresholding is minimal; it can flag multiple adjacent frames as events.
+- Next steps: peak merging/refractory window, prominence/duration filters, baseline drift handling, and alignment to behavioral timestamps.
