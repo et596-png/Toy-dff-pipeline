@@ -19,8 +19,8 @@ A tiny, beginner-level **end-to-end** demonstration of a calcium-like fluorescen
 - `trace_qc.png` — QC-style plot: ΔF/F trace with detected-event markers
 
 ### Optional
-- `analysis_notebook_en.ipynb` — notebook version of the same workflow (if you include it)
-
+- `analysis_notebook_en.ipynb` — notebook version of the same workflow ([open](analysis_notebook_en.ipynb))
+  
 ---
 
 ## Quick view (QC plot)
